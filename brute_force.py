@@ -23,7 +23,7 @@ def getActions(file: str) -> List:
 
 def createActionsCombination(data, limit=500):
     max_profit = 0
-    min_cost = float('inf')  # Initialise le coût minimum à l'infini
+    min_cost = 0
     best_investissement = []
     n = len(data)
 
